@@ -1,7 +1,7 @@
 import React from 'react'
-import Banner from '../components/banner/Banner'
 import Button from '../components/button/Button'
 import Card from '../components/card/Card'
+import Carousel from '../components/carousel/Carousel'
 import Content1 from '../components/content/Content1'
 import Content2 from '../components/content/Content2'
 import Footer from '../components/footer/Footer'
@@ -10,7 +10,7 @@ import Step from '../components/step/Step'
 function LandingPage() {
     return (
         <div className="bg-gray-100">
-            <Banner />
+            <Carousel />
             
             <div className="text-center mt-9 mb-6 font-semibold text-lg md:text-2xl md:mt-12 ">
                 Spesial di Naturalisme Bulan ini

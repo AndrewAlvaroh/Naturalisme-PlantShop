@@ -1,9 +1,10 @@
 import React from 'react'
+import Carousel from '../components/carousel/Carousel'
 
 function taman() {
     return (
         <div>
-            ON GOING
+            <Carousel />
         </div>
     )
 }
