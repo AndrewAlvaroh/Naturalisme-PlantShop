@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import './Card.css';
 
-function Card() {
+function Card(props) {
     return (
         <div>
             
@@ -10,19 +10,15 @@ function Card() {
             <div className="bg-gray-100 flex">
             <div className="w-44 md:w-60 p-2 md:p-4 lg:p-3  bg-white rounded-xl  shadow-xl hover:shadow-2xl  transform duration-500 ">
                 <Link to='/shop'> 
-               
-                   
-                 <img className="w-48 h-40  md:w-60 md:h-44 lg:w-72  lg:h-44  object-cover rounded-t-md " src="/Images/produk1.jpeg" alt="produk" />
-               
-                 
+                 <img className="w-48 h-40  md:w-60 md:h-44 lg:w-72  lg:h-44  object-cover rounded-t-md " src={props.imgProduct} alt="produk" />   
                 </Link>
                 <div className="mt-4">
-                <h1 className="text-base font-bold md:text-lg lg:text-xl text-gray-700"><span className="text-red-800">Golden</span>  Barrel</h1>
+                <h1 className="text-base font-bold md:text-lg lg:text-xl text-gray-700"><span className="text-red-800">{props.titleTanaman}</span>  {props.titleTanaman2}</h1>
              
-                <p className="text-xs md:text-sm italic mt-1 text-gray-700">Tanaman Indoor</p>
+                <p className="text-xs md:text-sm italic mt-1 text-gray-700">{props.jenis}</p>
                 
                 <div className="mt-3 md:mt-5 mb-2 flex justify-between  pr-2">
-                    <button className="block text-sm md:text-base font-semibold text-gray-700 cursor-auto">99.000</button>
+                    <button className="block text-sm md:text-base font-semibold text-gray-700 cursor-auto">{props.harga}</button>
                    
                    
                    

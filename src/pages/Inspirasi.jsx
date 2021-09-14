@@ -43,7 +43,7 @@ function Inspirasi() {
             </div>
 
             <div className="text-center mt-10 md:mt-60">
-               <Link   to='/perawatan'> <Button2 /> </Link>
+               <Link   to='/perawatan'> <Button2 namaButton="Lihat Selengkapnya"/> </Link>
             </div>
              
             

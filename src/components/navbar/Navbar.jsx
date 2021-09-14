@@ -5,7 +5,7 @@ function Navbar() {
     const  [isOpen, setIsOpen] = useState(false);
 
     return (
-        <div>
+        <div >
 
 
             <div className="bg-gray-100 ">

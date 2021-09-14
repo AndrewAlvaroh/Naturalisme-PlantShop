@@ -59,9 +59,9 @@ function Footer() {
 			</div>
 			<div className="col-span-6 text-center  md:col-span-3 md:my-10">
 				<p className="pb-1 text-lg font-medium text-white">Lokasi</p>
-				<ul className="text-gray-100 text-sm md:text-base">
-
-					Lokasi :Ruko Bisnis Daan Mogot Baru Blok KJG, Jl. Tampak Siring, RT.2/RW.12, Kalideres, West Jakarta City, Jakarta 11840
+				<ul className="text-gray-100 text-xs md:text-base ">
+				
+					Ruko Bisnis Daan Mogot Baru Blok KJG, Jl. Tampak Siring, RT.2/RW.12, Kalideres, West Jakarta City, Jakarta 11840
 					
 				</ul>
 			</div>

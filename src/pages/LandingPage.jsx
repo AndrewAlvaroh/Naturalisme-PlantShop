@@ -20,20 +20,29 @@ function LandingPage() {
                 <div className="grid grid-cols-2 md:grid-cols-4">
 
                     <div>
-                    <Card />
+                    <Card imgProduct="/Images/produk1.jpeg" 
+                    titleTanaman="Golden" titleTanaman2="Barrel" jenis="Tanaman Indoor"
+                    harga="99.000"
+                    />
                     </div>
 
                     <div>
-                    <Card />
+                    <Card imgProduct="/Images/produk2.jpeg" 
+                    titleTanaman="Centong" titleTanaman2="Mini" jenis="Tanaman Indoor"
+                    harga="85.000" />
                     </div>
 
                     
                     <div className="mt-4 md:mt-0">
-                    <Card />
+                    <Card imgProduct="/Images/produk3.jpeg" 
+                    titleTanaman="Terang" titleTanaman2="Bulan" jenis="Tanaman Outdoor"
+                    harga="99.000"/>
                     </div>
 
-                    <div className="mt-4 md:mt-0">
-                    <Card />
+                    <div className="mt-4  md:mt-0">
+                    <Card imgProduct="/Images/produk4.jpeg" 
+                    titleTanaman="Begonia" titleTanaman2="Silver" jenis="Tanaman Indoor"
+                    harga="65.000"/>
                     </div>
                 </div>      
                
@@ -44,7 +53,8 @@ function LandingPage() {
            </div>
 
                 <Step />
-                <Content1 />
+                <Content1 title="Jasa  Pembuatan  Taman 
+        Indoor & Outdoor" isi=" Kami mengerjakan jasa pembutan taman minimalis, mengerjakan jasa pembutan taman kering, mengerjakan pembutan taman bernuansa bali, mengerjakan jasa pembutan taman bernuansa jepang, serta bisa juga membuat taman yang di sesuikan dengan konsep atau desain yang sudah anda buat sendiri keingan anda."/>
            
             <div className="h-14 md:h-24" style={{background : '#F9F6F0'}}  > </div>
 
