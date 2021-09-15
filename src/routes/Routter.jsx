@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter,Switch,Route } from 'react-router-dom'
+import {Switch,Route } from 'react-router-dom'
 import Navbar from '../components/navbar/Navbar'
 
 import LandingPage from '../pages/LandingPage'
@@ -13,7 +13,7 @@ import Taman from '../pages/Taman';
 function Routter() {
     return (
         <div>
-            <BrowserRouter>
+            {/* <BrowserRouter> */}
                 
                 <Switch>
                     <Route exact path='/'>
@@ -21,7 +21,7 @@ function Routter() {
                         <LandingPage />
                     </Route>
 
-                    <Route exact path='/shop'>
+                    <Route path='/shop'>
                         <Navbar />
                         <Shop />
                     </Route>
@@ -42,7 +42,7 @@ function Routter() {
                     <Route exact path='/register' component={Register} />
                     <Route exact path='*' component={Error} />
                 </Switch>
-            </BrowserRouter>
+            {/* </BrowserRouter> */}
         </div>
     )
 }

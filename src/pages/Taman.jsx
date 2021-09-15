@@ -6,7 +6,7 @@ import Footer from '../components/footer/Footer'
 
 function taman() {
     return (
-        <div>
+        <div className="bg-gray-50">
             <div>
                 <img src="/Images/banner4.svg" alt="banner" />
             </div>
@@ -21,13 +21,16 @@ function taman() {
                 <Content5 />
             </div>
 
-                <Content1 title="Jasa Pembuatan Taman Indoor" isi="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled" />
-                <Content1 title="Jasa Pembuatan Taman Outdoor" isi="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled" />
+                <Content1 title="Jasa Pembuatan Taman Indoor" 
+                isi="Taman seperti penolong manusia saat musim kemarau. Taman bisa menjadi teman hidup bagi pemilik rumah. Dengan adanya taman, sang pemilik akan terpancing jiwanya untuk menanam tanaman hijau yang bisa menyuplai oksigen. Terutama bagi Anda yang tinggal di perkotaan."
+                imgContent="/Images/content1.png"
+                />
+                <Content1 title="Jasa Pembuatan Taman Outdoor" 
+                isi="Taman seperti penolong manusia saat musim kemarau. Taman bisa menjadi teman hidup bagi pemilik rumah. Dengan adanya taman, sang pemilik akan terpancing jiwanya untuk menanam tanaman hijau yang bisa menyuplai oksigen. Terutama bagi Anda yang tinggal di perkotaan.   ."
+                imgContent="/Images/content2tmn.jpeg"
+                />
       
-            <div>
-                <Content5 />
-            </div>
-
+         
 
             <Footer />
       
