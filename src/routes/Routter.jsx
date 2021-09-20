@@ -14,6 +14,7 @@ import TmnOutdoor from '../pages/subTaman/TmnOutdoor'
 import SubShop from '../pages/kategoriShop/subShop/SubShop'
 import Cart from '../pages/cart/Cart'
 import Register2 from '../pages/register/Register2'
+import Perawatan from '../pages/subTaman/Perawatan'
 
 
 function Routter() {
@@ -40,6 +41,11 @@ function Routter() {
                     <Route exact path='/taman'>
                         <Navbar />
                         <Taman />
+                    </Route>
+
+                    <Route exact path='/perawatan'>
+                        <Navbar />
+                        <Perawatan />
                     </Route>
         
                     <Route exact path='/tmnindoor'>

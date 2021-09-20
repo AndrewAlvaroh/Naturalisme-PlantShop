@@ -23,26 +23,32 @@ function LandingPage() {
                     <Card imgProduct="/Images/indoor1.png" 
                     titleTanaman="Golden" titleTanaman2="Barrel" jenis="Tanaman Indoor"
                     harga="99.000"
+                    to='/subShop'
                     />
                     </div>
 
                     <div>
                     <Card imgProduct="/Images/indoor2.png" 
                     titleTanaman="Begonia" titleTanaman2="Silver" jenis="Tanaman Indoor"
-                    harga="65.000" />
+                    harga="65.000" 
+                    to='#'
+                    />
                     </div>
 
                     
                     <div className="mt-4 md:mt-0">
                     <Card imgProduct="/Images/outdoor1.png" 
                     titleTanaman="Terang" titleTanaman2="Bulan (bonsai)" jenis="Tanaman Outdoor"
-                    harga="400.000"/>
+                    harga="400.000"
+                    to='#'
+                    />
                     </div>
 
                     <div className="mt-4  md:mt-0">
                     <Card imgProduct="/Images/indoor3.png" 
                     titleTanaman="Golden" titleTanaman2="Hanny" jenis="Tanaman Indoor"
-                    harga="95.000"/>
+                    harga="95.000"
+                    to='#'/>
                     </div>
                 </div>      
                

@@ -21,7 +21,7 @@ function Content4() {
       <div>
         <div className="inline-block align-bottom">
               
-            <Button2 namaButton="Pesan Sekarang" to="/taman" />
+            <Button2 namaButton="Pesan Sekarang" to="/perawatan" />
            
           </div>
       </div>
