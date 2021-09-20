@@ -20,14 +20,16 @@ function taman() {
             <div>
                 <Content5 />
             </div>
-
+                
                 <Content1 title="Jasa Pembuatan Taman Indoor" 
                 isi="Taman seperti penolong manusia saat musim kemarau. Taman bisa menjadi teman hidup bagi pemilik rumah. Dengan adanya taman, sang pemilik akan terpancing jiwanya untuk menanam tanaman hijau yang bisa menyuplai oksigen. Terutama bagi Anda yang tinggal di perkotaan."
                 imgContent="/Images/content1.png"
+                toTitle='/tmnIndoor' toButton='/tmnIndoor'
                 />
                 <Content1 title="Jasa Pembuatan Taman Outdoor" 
                 isi="Taman seperti penolong manusia saat musim kemarau. Taman bisa menjadi teman hidup bagi pemilik rumah. Dengan adanya taman, sang pemilik akan terpancing jiwanya untuk menanam tanaman hijau yang bisa menyuplai oksigen. Terutama bagi Anda yang tinggal di perkotaan.   ."
                 imgContent="/Images/content2tmn.jpeg"
+                toTitle='/tmnOutdoor' toButton='/tmnOutdoor'
                 />
       
          

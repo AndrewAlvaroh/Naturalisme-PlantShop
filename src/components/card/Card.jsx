@@ -9,7 +9,7 @@ function Card(props) {
           
             <div className="bg-white flex">
             <div className="w-44 md:w-60 p-2 md:p-4 lg:p-3  bg-gray-100 rounded-xl  shadow-xl hover:shadow-3xl  transform duration-500 ">
-                <Link to='/shop'> 
+                <Link to={props.to}> 
                  <img className="w-48 h-40  md:w-60 md:h-44 lg:w-72  lg:h-44  object-cover rounded-t-md " src={props.imgProduct} alt="produk" />   
                 </Link>
                 <div className="mt-4">

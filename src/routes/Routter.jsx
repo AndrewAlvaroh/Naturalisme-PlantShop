@@ -9,6 +9,12 @@ import Login from '../pages/login/Login';
 import Register from '../pages/register/Register';
 import Error from '../pages/errors/Error'
 import Taman from '../pages/Taman';
+import TmnIndoor from '../pages/subTaman/TmnIndoor'
+import TmnOutdoor from '../pages/subTaman/TmnOutdoor'
+import SubShop from '../pages/kategoriShop/subShop/SubShop'
+import Cart from '../pages/cart/Cart'
+import Register2 from '../pages/register/Register2'
+
 
 function Routter() {
     return (
@@ -25,21 +31,41 @@ function Routter() {
                         <Navbar />
                         <Shop />
                     </Route>
+                    <Route path='/subShop'>
+                        <Navbar />
+                        <SubShop />
+                    </Route>
 
 
                     <Route exact path='/taman'>
                         <Navbar />
                         <Taman />
                     </Route>
-  
+        
+                    <Route exact path='/tmnindoor'>
+                        <Navbar />
+                        <TmnIndoor />
+                    </Route>
+                    <Route exact path='/tmnoutdoor'>
+                        <Navbar />
+                        <TmnOutdoor />
+                    </Route>
+
 
                     <Route exact path='/inspirasi'>
                         <Navbar />
                         <Inspirasi />
                     </Route>
 
+                    <Route exact path='/cart'>
+                        <Navbar />
+                        <Cart />
+                    </Route>
+
+
                     <Route exact path='/login' component={Login} />
                     <Route exact path='/register' component={Register} />
+                    <Route exact path='/register2' component={Register2} />
                     <Route exact path='*' component={Error} />
                 </Switch>
             {/* </BrowserRouter> */}

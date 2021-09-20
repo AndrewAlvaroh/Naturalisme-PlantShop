@@ -29,7 +29,7 @@ function Login() {
               </div>
             </div>
             <div className="flex -mx-3">
-              <div className="w-full px-3 mb-12">
+              <div className="w-full px-3 mb-7">
                 <label htmlFor className="text-base font-semibold px-1">Password</label>
                 <div className="flex">
                   <div className="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center"><i className="mdi mdi-lock-outline text-gray-400 text-lg" /></div>
@@ -39,6 +39,12 @@ function Login() {
             </div>
             <div className="flex -mx-3">
               <div className="w-full px-3 mb-5">
+                <div className="text-center flex justify-center">
+                  <a href="https://translate.google.co.id/?hl=id"><img src="/Images/gogle.png" alt="google" width="30px" /></a> 
+                </div>
+                <div className="text-center my-5">
+                  OR
+                </div>
                 <button className="block w-full max-w-xs mx-auto bg-blue-500 hover:bg-blue-700 focus:bg-blue-700 text-white rounded-lg px-3 py-3 font-semibold">LOGIN</button>
               </div>
             </div>
