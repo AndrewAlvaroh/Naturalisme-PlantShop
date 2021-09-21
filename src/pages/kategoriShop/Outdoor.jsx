@@ -10,13 +10,16 @@ function Outdoor() {
                     <Card imgProduct="/Images/outdoor1.png" 
                     titleTanaman="Terang" titleTanaman2="Bulan" jenis="Tanaman Outdoor"
                     harga="400.000"
+                    to=""
                     />
                     </div>
 
                     <div>
                     <Card imgProduct="/Images/outdoor2.png" 
                     titleTanaman="Ekor" titleTanaman2="Tupai" jenis="Tanaman Indoor"
-                    harga="65.000" />
+                    harga="65.000" 
+                    to=""
+                    />
                     </div>
 
                     

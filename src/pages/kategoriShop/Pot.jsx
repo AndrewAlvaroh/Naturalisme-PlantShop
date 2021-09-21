@@ -11,13 +11,16 @@ function Pot() {
                     <Card imgProduct="/Images/pot1.png" 
                     titleTanaman="Pot" titleTanaman2="Tanah Liat" jenis="Perlengkapan"
                     harga="45.000"
-                    />
+                    to=""
+                        />
                     </div>
 
                     <div>
                     <Card imgProduct="/Images/pot2.png" 
                     titleTanaman="Pot" titleTanaman2="Tanah Liat" jenis="Perlengkapan Tanam"
-                    harga="35.000" />
+                    harga="35.000" 
+                    to=""
+                        />
                     </div>
 
                    

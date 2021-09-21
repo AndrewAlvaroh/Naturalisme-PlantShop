@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Button2 from '../button/Button2'
 
 function Content4() {
@@ -15,7 +16,10 @@ function Content4() {
     </div>
     <div className="w-full md:w-1/2 px-10">
       <div className="mb-2 md:mb-8">
+        <Link to='/perawatan'>
         <h1 className="font-bold uppercase text-2xl mb-5 text-center md:text-left">Perawatan Tanaman</h1>
+        </Link>
+       
         <p className="text-sm"> Jasa Perawatan taman Indoor &amp; Outdoor memberikan garansi pengerjaan sesuai waktu yang disepakati. Kami selalu memprioritaskan kepuasan pelanggan. </p>
       </div>
       <div>
