@@ -16,6 +16,7 @@ import Cart from '../pages/cart/Cart'
 import Register2 from '../pages/register/Register2'
 import Perawatan from '../pages/subTaman/Perawatan'
 import Checkout from '../pages/checkout/Checkout'
+import Invoice from '../pages/invoices/Invoice'
 
 
 function Routter() {
@@ -72,6 +73,11 @@ function Routter() {
                     <Route exact path='/checkout'>
                         <Navbar />
                         <Checkout />
+                    </Route>
+
+                    <Route exact path='/invoice'>
+                        <Navbar />
+                        <Invoice />
                     </Route>
 
 
