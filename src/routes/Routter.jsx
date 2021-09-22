@@ -15,6 +15,7 @@ import SubShop from '../pages/kategoriShop/subShop/SubShop'
 import Cart from '../pages/cart/Cart'
 import Register2 from '../pages/register/Register2'
 import Perawatan from '../pages/subTaman/Perawatan'
+import Checkout from '../pages/checkout/Checkout'
 
 
 function Routter() {
@@ -66,6 +67,11 @@ function Routter() {
                     <Route exact path='/cart'>
                         <Navbar />
                         <Cart />
+                    </Route>
+
+                    <Route exact path='/checkout'>
+                        <Navbar />
+                        <Checkout />
                     </Route>
 
 
