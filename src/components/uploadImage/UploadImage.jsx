@@ -2,7 +2,7 @@ import React from 'react'
 
 function UploadImage() {
     return (
-        <div className="border rounded-md p-6">
+        <div className="border border-gray-300 rounded-md p-6 mt-5 lg:mt-0">
         <h1 className="text-lg font-bold text-center">Konfirmasi Pembayaran</h1>
     <form className="mt-8 space-y-3" action="#" method="POST">
   <div className="grid grid-cols-1 space-y-2">
@@ -28,8 +28,8 @@ function UploadImage() {
     <span>File type: jpg,jpeg,png</span>
   </p>
   <div>
-    <button type="submit" className="my-5 w-full flex justify-center bg-blue-500 text-gray-100 p-4  rounded-full tracking-wide
-                              font-semibold  focus:outline-none focus:shadow-outline hover:bg-blue-600 shadow-lg cursor-pointer transition ease-in duration-300">
+    <button type="submit" className="my-5 w-full flex justify-center bg-green-600 text-gray-100 p-4  rounded-full tracking-wide
+    font-semibold  focus:outline-none focus:shadow-outline hover:bg-green-700 shadow-lg cursor-pointer transition ease-in duration-300">
       Upload
     </button>
   </div>
