@@ -1,11 +1,11 @@
 import React, { useState, useContext } from 'react';
 import { UserContext } from '../../context/UserContext';
 import { Link } from 'react-router-dom';
-import { GoogleLogin, GoogleLogout } from 'react-google-login';
+import {  GoogleLogout } from 'react-google-login';
 
 const clientId =
   '506191014256-cmahv38l886a2filfp3mlonitnml20re.apps.googleusercontent.com';
-
+   
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [user, setUser] = useContext(UserContext);

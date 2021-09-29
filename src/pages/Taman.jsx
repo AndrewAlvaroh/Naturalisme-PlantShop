@@ -32,7 +32,6 @@ function taman() {
                 toTitle='/tmnOutdoor' toButton='/tmnOutdoor'
                 />
       
-         
 
             <Footer />
       

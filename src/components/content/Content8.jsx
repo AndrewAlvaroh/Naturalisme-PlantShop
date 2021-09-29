@@ -1,30 +1,29 @@
-import React, { Component } from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import Button2 from '../button/Button2'
+import Button2 from '../button/Button2';
 
-export class Content8 extends Component {
+function Content8() {
 
-    state = {
-        order : 1
+  const [hari,setHari] = useState(1);
+  const [harga,setHarga] = useState(340000);
+
+  const handlePlus = () => {
+    setHari(hari + 1)
+    setHarga(harga + 340000)
+  }
+
+  const handleMinus = () => {
+    if (hari > 1) {
+      setHari(hari - 1)
+      setHarga(harga - 340000)
     }
+    
+  }
 
-    handlePlus = () => {
-       this.setState({
-           order : this.state.order + 1
-       })
-    }
-    handleMinus = () => {
-        if(this.state.order > 1 ) {
-            this.setState({
-                order : this.state.order - 1
-            })
-        }
-       
-    }
-
-    render() {
-        return (
-            <div>
+  return (
+    <div>
+      
+      <div>
                  <div className="mt-5">
             
             <div className="w-full max-w-6xl rounded bg-white shadow-xl p-2 lg:p-10 mx-auto text-gray-800 relative md:text-left">
@@ -47,11 +46,16 @@ export class Content8 extends Component {
                  <p className="text-sm">4. Bayar & Kami Siap Merawat Taman Anda  </p>
                  
                  <div className=" mt-5">
-                     <button onClick={this.handleMinus} className="px-3 py-1 text-lg text-white bg-green-600 rounded-md">-</button>
-                     <input type="text" value={this.state.order} className="w-10 text-center" />
-                     <button onClick={this.handlePlus} className="px-3 py-1 text-lg text-white bg-green-600 rounded-md">+</button>
-                     <span className="ml-3 text-lg">Hari</span> 
-         
+                     <button onClick={handleMinus}  className="px-3 py-1 text-lg text-white bg-green-600 rounded-md">-</button>
+                      <span className="mx-3">{hari}</span>
+                     <button onClick={handlePlus} className="px-3 py-1 text-lg text-white bg-green-600 rounded-md">+</button>
+                      <span className="mx-2">
+                        Hari
+                      </span> <br />
+                     <div className="text-lg mt-2">
+                       Harga : <span className="text-green-500 font-semibold">Rp.   {harga} </span> 
+                     </div>
+
                  </div>
          
                </div>
@@ -69,9 +73,9 @@ export class Content8 extends Component {
          
                  </div>
             </div>
-        )
-    }
+
+    </div>
+  )
 }
 
 export default Content8
-

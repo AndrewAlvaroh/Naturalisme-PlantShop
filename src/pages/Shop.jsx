@@ -28,6 +28,8 @@ function Shop() {
             </div>
         
      <div>
+
+       
          
          <Switch>
             <Route exact path="/shop/indoor" component={Indoor}/>

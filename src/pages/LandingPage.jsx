@@ -70,6 +70,7 @@ function LandingPage() {
             <div className="h-14 md:h-24" style={{background : '#F9F6F0'}}  > </div>
 
             <Content2 />
+
            
             <Footer />
 
