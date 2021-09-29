@@ -1,4 +1,6 @@
 import React, {  useContext } from 'react';
+import {Helmet} from "react-helmet";
+
 import { UserContext } from '../../context/UserContext';
 import { Link, useHistory } from 'react-router-dom';
 import { GoogleLogin } from 'react-google-login';
@@ -22,6 +24,12 @@ function Login() {
   };
   return (
     <div>
+
+        <Helmet>
+            <title>Naturalisme | Login</title>
+            <meta name='description' content='Kategori Tanaman, Tanaman Indoor,Tanaman Outdoor,Perlengkapan Tanaman' />
+        </Helmet>
+
       <div>
         <div className="min-w-screen min-h-screen  flex items-center justify-center px-5 py-5">
           <div

@@ -1,4 +1,6 @@
 import React from 'react'
+import {Helmet} from "react-helmet";
+
 import Alerts from '../../components/alerts/Alerts'
 import Banktf from '../../components/transfer/Banktf';
 import Ewallet from '../../components/transfer/Ewallet';
@@ -9,8 +11,13 @@ import Footer from '../../components/footer/Footer'
 function Invoice() {
     return (
         <div>
+        <Helmet>
+            <title>Naturalisme | Invoice</title>
+            <meta name='description' content='Kategori Tanaman, Tanaman Indoor,Tanaman Outdoor,Perlengkapan Tanaman' />
+        </Helmet>
+
         <div className="mx-10 my-16">
-            <div>
+            <div className="mb-8">
                 <Alerts />
             </div>
 

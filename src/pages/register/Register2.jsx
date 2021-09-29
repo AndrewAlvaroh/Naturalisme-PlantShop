@@ -1,9 +1,14 @@
 import React from 'react'
+import {Helmet} from "react-helmet";
+
 
 function Register2() {
     return (
         <div>
-            
+        <Helmet>
+            <title>Naturalisme | Register2</title>
+            <meta name='description' content='Kategori Tanaman, Tanaman Indoor,Tanaman Outdoor,Perlengkapan Tanaman' />
+        </Helmet>
                       
 <div>
   <div className="min-w-screen min-h-screen  flex items-center justify-center px-5 py-5">

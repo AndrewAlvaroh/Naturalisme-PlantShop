@@ -1,11 +1,17 @@
 import React from 'react'
+import {Helmet} from "react-helmet";
+
 import ItemCard from './itemCard/ItemCard'
 import Footer from '../../components/footer/Footer';
 
 function Cart() {
     return (
         <div>
-
+        
+        <Helmet>
+            <title>Naturalisme | Cart Product</title>
+            <meta name='description' content='Kategori Tanaman, Tanaman Indoor,Tanaman Outdoor,Perlengkapan Tanaman' />
+        </Helmet>
       
         <div className="mx-5 md:mx-10 mb-20 lg:mb-32">
             
