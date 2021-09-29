@@ -21,6 +21,7 @@ function LandingPage() {
 
                     <div>
                     <Card imgProduct="/Images/indoor1.png" 
+                          imgProduct2="/Images/indoor1h.png" 
                     titleTanaman="Golden" titleTanaman2="Barrel" jenis="Tanaman Indoor"
                     harga="99.000"
                     to='/subShop'
@@ -29,6 +30,7 @@ function LandingPage() {
 
                     <div>
                     <Card imgProduct="/Images/indoor2.png" 
+                          imgProduct2="/Images/indoor2h.png" 
                     titleTanaman="Begonia" titleTanaman2="Silver" jenis="Tanaman Indoor"
                     harga="65.000" 
                     to='#'
@@ -38,6 +40,7 @@ function LandingPage() {
                     
                     <div className="mt-4 md:mt-0">
                     <Card imgProduct="/Images/outdoor1.png" 
+                          imgProduct2="/Images/outdoor1h.png" 
                     titleTanaman="Terang" titleTanaman2="Bulan (bonsai)" jenis="Tanaman Outdoor"
                     harga="400.000"
                     to='#'
@@ -46,6 +49,7 @@ function LandingPage() {
 
                     <div className="mt-4  md:mt-0">
                     <Card imgProduct="/Images/indoor3.png" 
+                          imgProduct2="/Images/indoor3h.png" 
                     titleTanaman="Golden" titleTanaman2="Hanny" jenis="Tanaman Indoor"
                     harga="95.000"
                     to='#'/>
@@ -71,7 +75,7 @@ function LandingPage() {
 
             <Content2 />
 
-           
+         
             <Footer />
 
         </div>

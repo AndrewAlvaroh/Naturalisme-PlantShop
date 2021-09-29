@@ -9,6 +9,7 @@ function Pot() {
 
                     <div>
                     <Card imgProduct="/Images/pot1.png" 
+                           imgProduct2="/Images/pot1.png" 
                     titleTanaman="Pot" titleTanaman2="Tanah Liat" jenis="Perlengkapan"
                     harga="45.000"
                     to=""
@@ -17,6 +18,7 @@ function Pot() {
 
                     <div>
                     <Card imgProduct="/Images/pot2.png" 
+                          imgProduct2="/Images/pot2.png" 
                     titleTanaman="Pot" titleTanaman2="Tanah Liat" jenis="Perlengkapan Tanam"
                     harga="35.000" 
                     to=""
