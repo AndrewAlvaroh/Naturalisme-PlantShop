@@ -1,4 +1,6 @@
 import React from 'react'
+import {Helmet} from "react-helmet";
+
 import Content1 from '../components/content/Content1'
 import Content4 from '../components/content/Content4'
 import Content5 from '../components/content/Content5'
@@ -7,6 +9,11 @@ import Footer from '../components/footer/Footer'
 function taman() {
     return (
         <div className="bg-gray-50">
+        <Helmet>
+            <title>Naturalisme | Pembuatan & Perawatan Taman</title>
+            <meta name='description' content='Naturalisme, Pembuatan Taman Jakarta, Pembuatan Taman Indoor & Outdoor' />
+        </Helmet>
+
             <div>
                 <img src="/Images/banner4.svg" alt="banner" />
             </div>

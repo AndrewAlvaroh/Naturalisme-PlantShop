@@ -1,11 +1,17 @@
 import React from 'react'
+import {Helmet} from "react-helmet";
+
 import Card from '../../components/card/Card'
 
 function Outdoor() {
     return (
         <div>
-                <div className="grid grid-cols-2 md:grid-cols-4 mt-10">
+         <Helmet>
+            <title>Naturalisme | Kategori Shop Outdoor</title>
+            <meta name='description' content='Kategori Tanaman, Tanaman Indoor,Tanaman Outdoor,Perlengkapan Tanaman' />
+        </Helmet>
 
+                <div className="grid grid-cols-2 md:grid-cols-4 mt-10">
                     <div>
                     <Card imgProduct="/Images/outdoor1.png" 
                          imgProduct2="/Images/outdoor1h.png" 

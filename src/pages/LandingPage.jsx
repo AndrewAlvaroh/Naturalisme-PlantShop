@@ -1,4 +1,6 @@
 import React from 'react'
+import {Helmet} from "react-helmet";
+
 import Button from '../components/button/Button'
 import Card from '../components/card/Card'
 import Carousel from '../components/carousel/Carousel'
@@ -10,6 +12,12 @@ import Step from '../components/step/Step'
 function LandingPage() {
     return (
         <div className="bg-gray-50">
+            <Helmet> 
+                <title>Naturalisme | Jual Tanaman Hias Jakarta</title>
+                <meta name='description' content='Naturalisme | Jual Tanaman Hias Jakarta, Jasa Pembuatan Taman / Kebun Jakarta, Jasa Perawatan Taman Jakarta, Plant Shop Jakarta' />
+                <meta name='keywords' content='Jual tanaman jakarta, Jasa Pembuatan taman Jakarta, Jasa Perawatan taman Jakarta, Naturalisme' />
+            </Helmet>
+
             <Carousel />
             
             <div className="text-center mt-9 mb-6 font-semibold text-lg md:text-2xl md:mt-12 ">

@@ -1,10 +1,18 @@
 import React from 'react'
+import {Helmet} from "react-helmet";
 import { Link } from 'react-router-dom'
+
+
 import Button2 from '../components/button/Button2'
 import Footer from '../components/footer/Footer'
 function Inspirasi() {
     return (
         <div >
+             <Helmet>
+            <title>Naturalisme | Gallery Inspirasi</title>
+            <meta name='description' content='Inspirasi setup, pembuatan taman indoor & outdoor' />
+             </Helmet>
+
             <div className="text-center text-2xl my-10  font-semibold">
                 GALERI
             </div>

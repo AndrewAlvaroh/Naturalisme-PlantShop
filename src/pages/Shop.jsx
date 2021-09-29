@@ -1,10 +1,12 @@
 import React from 'react'
+import {Helmet} from "react-helmet";
 import { Link, Switch, Route } from 'react-router-dom'
+
+
 import Indoor from './kategoriShop/Indoor'
 import Outdoor from './kategoriShop/Outdoor'
 import Pot from './kategoriShop/Pot'
 import Pupuk from './kategoriShop/Pupuk'
-
 import Footer from '../components/footer/Footer';
 
 
@@ -16,6 +18,11 @@ function Shop() {
         <div>
         <div className="mx-14">
                 
+        <Helmet>
+            <title>Naturalisme | Kategori Shop</title>
+            <meta name='description' content='Kategori Tanaman, Tanaman Indoor,Tanaman Outdoor,Perlengkapan Tanaman' />
+        </Helmet>
+
             <div className="text-3xl font-semibold text-center my-10">
             Enjoy Shopping
             </div>

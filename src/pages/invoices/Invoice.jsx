@@ -19,7 +19,7 @@ function Invoice() {
                     <div className="bg-green-600 bg-gradient-to-tl from-gray-600  p-4 rounded-lg text-gray-200">
                         <h1 className="text-2xl font-semibold mb-5">Rp. 200.000</h1>
                         <p className="text-sm font-semibold">SEMUA ATAS NAMA </p>
-                        <h1 className="font-bold text-xl">RIFAAT IMAPPAGANTI AWALUDDIN </h1>
+                        <h1 className="font-bold text-xl">RIFAAT IMAPPAGANTI AWALUDDIN & NATURALISME </h1>
                     </div>
 
                 <Banktf />

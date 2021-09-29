@@ -1,10 +1,15 @@
 import React from 'react'
+import {Helmet} from "react-helmet";
+
 import Card from '../../components/card/Card'
 
 function Pot() {
     return (
         <div>
-            
+        <Helmet>
+            <title>Naturalisme | Kategori Shop Pot</title>
+            <meta name='description' content='Kategori Tanaman, Tanaman Indoor,Tanaman Outdoor,Perlengkapan Tanaman' />
+        </Helmet>
            <div className="grid grid-cols-2 md:grid-cols-4 mt-10">
 
                     <div>
