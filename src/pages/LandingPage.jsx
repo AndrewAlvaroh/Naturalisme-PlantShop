@@ -72,12 +72,12 @@ function LandingPage() {
 
                 <Step />
                 <Content1 title="Jasa  Pembuatan  Taman 
-        Indoor & Outdoor" 
-        toTitle='/taman' toButton='/taman'
-        isi=" Kami mengerjakan jasa pembutan taman minimalis, mengerjakan jasa pembutan taman kering, mengerjakan pembutan taman bernuansa bali, mengerjakan jasa pembutan taman bernuansa jepang, serta bisa juga membuat taman yang di sesuikan dengan konsep atau desain yang sudah anda buat sendiri keingan anda."
-                imgContent="/Images/content1.png"
-                                  
-        />
+                Indoor & Outdoor" 
+                toTitle='/taman' toButton='/taman'
+                isi=" Kami mengerjakan jasa pembutan taman minimalis, mengerjakan jasa pembutan taman kering, mengerjakan pembutan taman bernuansa bali, mengerjakan jasa pembutan taman bernuansa jepang, serta bisa juga membuat taman yang di sesuikan dengan konsep atau desain yang sudah anda buat sendiri keingan anda."
+                        imgContent="/Images/content1.png"
+                                        
+                />
            
             <div className="h-14 md:h-24" style={{background : '#F9F6F0'}}  > </div>
 
