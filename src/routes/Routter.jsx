@@ -17,6 +17,7 @@ import Register2 from '../pages/register/Register2'
 import Perawatan from '../pages/subTaman/Perawatan'
 import Checkout from '../pages/checkout/Checkout'
 import Invoice from '../pages/invoices/Invoice'
+import Admin from '../admin/Admin'
 
 
 function Routter() {
@@ -80,7 +81,7 @@ function Routter() {
                         <Invoice />
                     </Route>
 
-
+                    <Route exact path='/admin' component={Admin} />
                     <Route exact path='/login' component={Login} />
                     <Route exact path='/register' component={Register} />
                     <Route exact path='/register2' component={Register2} />
